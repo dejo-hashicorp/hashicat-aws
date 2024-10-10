@@ -9,7 +9,9 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
 
   <!-- BEGIN -->
-  <center><img src="${PLACEHOLDER}"></img></center>
+  <center>
+    <img src="${PLACEHOLDER}" style="max-width: 600px; max-height: 400px;">
+  </center>
   <center><h2>Meow World!</h2></center>
   Welcome to ${PREFIX}'s app. Replace this text with your own. Hello!
   <!-- END -->
