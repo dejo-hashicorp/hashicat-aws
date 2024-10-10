@@ -15,6 +15,9 @@ module "rds" {
   source  = "app.terraform.io/dejo-oyelese-tfhc/rds/aws"
   version = "2.0.0"
   # insert required variables here
+  db_name = "hashicat-rds"
+  db_username = "hashicat"
+  db_password = "hashicat-pw"
 }
 
 resource "aws_vpc" "hashicat" {
