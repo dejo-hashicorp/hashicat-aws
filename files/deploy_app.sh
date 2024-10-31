@@ -13,7 +13,7 @@ cat << EOM > /var/www/html/index.html
     <img src="${PLACEHOLDER}" style="max-width: 600px; max-height: 400px;">
   </center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Replace this text with your own. Hello CPKC!
+  Welcome to ${PREFIX}'s app. Replace this text with your own.
   <!-- END -->
 
   </div>
