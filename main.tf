@@ -11,15 +11,6 @@ provider "aws" {
   region  = var.region
 }
 
-module "rds" {
-  source  = "app.terraform.io/dejo-oyelese-tfhc/rds/aws"
-  version = "6.0.0"
-
-  db_name = "databasename"
-  db_password = "tempdbpassword"
-  db_username = "dbusername"
-}
-
 resource "aws_vpc" "hashicat" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
